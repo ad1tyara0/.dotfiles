@@ -1,0 +1,15 @@
+# This is Git's per-user configuration file.
+[user]
+	name = Aditya Rao
+	email = dev.adityarao@gmail.com
+
+[github]
+  user = ad1tyara0
+
+[core]
+	editor = code --wait
+  excludesfile = ~/.gitignore
+
+[help]
+	# Automatically correct and execute mistyped commands
+  autocorrect = 1
