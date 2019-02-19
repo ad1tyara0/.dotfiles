@@ -50,7 +50,7 @@ echo "# The mere presence of this file in the home directory disables the system
 
 # create dotfiles directory and clone
 doing "Cloning dotfiles..."
-git clone -q https://github.com/ad1tyara0/dotfiles.git "$HOME"
+git clone -q https://github.com/ad1tyara0/.dotfiles.git "$HOME"
 success
 
 main () {
