@@ -48,11 +48,6 @@ echo "# The mere presence of this file in the home directory disables the system
 # day as well as other information that may otherwise appear on login.
 # See \`man login\`." > .hushlogin
 
-# create dotfiles directory and clone
-doing "Cloning dotfiles..."
-git clone -q https://github.com/ad1tyara0/.dotfiles.git "$HOME"
-success
-
 main () {
 
   source macosprep.sh
