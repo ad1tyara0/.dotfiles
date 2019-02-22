@@ -84,6 +84,10 @@ eval "$(rbenv init -)"
 # Python
 export PATH="/usr/local/opt/python/libexec/bin:$PATH"
 
+# Node
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # This loads nvm
+
 # The following lines were added by compinstall
 zstyle :compinstall filename '/Users/aditya/.zshrc'
 
