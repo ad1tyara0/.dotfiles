@@ -61,9 +61,9 @@ main () {
   rm -rf $HOME/.zshrc
   ln -s $ROOT/zsh/.zshrc $HOME/.zshrc
 
-  # Removes aliases.zsh from $CUSTOMPATH (if it exists) and symlinks the .aliases.zsh file from the .dotfiles
-  rm -rf $ZSHCUSTOMPATH/aliases.zsh
-  ln -s $ROOT/zsh/aliases.zsh $ZSHCUSTOMPATH/aliases.zsh
+  # Removes zsh_aliases from $HOME (if it exists) and symlinks the zsh_aliases file from the .dotfiles
+  rm -rf $HOME/zsh_aliases
+  ln -s $ROOT/zsh/zsh_aliases $HOME/zsh_aliases
 
   # Removes .gitignore from $HOME (if it exists) and symlinks the ..gitignore file from the .dotfiles
   rm -rf $HOME/.gitignore

@@ -77,6 +77,9 @@ source $ZSH/oh-my-zsh.sh
 # Local bin directories before anything else
 export PATH="/usr/local/bin:/usr/local/sbin:$PATH"
 
+# Source .zsh_aliases
+. ~/.zsh_aliases
+
 # Ruby
 export PATH="$HOME/.rbenv/bin:$PATH"
 eval "$(rbenv init -)"
