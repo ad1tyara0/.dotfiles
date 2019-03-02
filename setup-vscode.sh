@@ -69,6 +69,7 @@ PKief.material-icon-theme \
 pnp.polacode \
 robertohuertasm.vscode-icons \
 spywhere.guides \
+WallabyJs.quokka-vscode \
 yzhang.markdown-all-in-one \
 )
 echo

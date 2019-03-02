@@ -129,19 +129,52 @@ brew tap homebrew/bundle
 brew cask install --appdir="/Applications" vlc
 brew cask install --appdir="/Applications" flux
 brew cask install --appdir="/Applications" iina
+brew cask install --appdir="~/Applications" lepton
+brew cask install --appdir="~/Applications" rocket
+brew cask install --appdir="~/Applications" skype
+brew cask install --appdir="~/Applications" spotify
+brew cask install --appdir="~/Applications" skim
+brew cask install --appdir="~/Applications" imageoptim
+brew cask install --appdir="~/Applications" figma
+brew cask install --appdir="~/Applications" bitwarden
+brew cask install --appdir="~/Applications" the-unarchiver
+brew cask install --appdir="~/Applications" notion
+brew cask install --appdir="~/Applications" dynalist
+brew cask install --appdir="~/Applications" skitch
+brew cask install --appdir="~/Applications" itsycal
+brew cask install --appdir="~/Applications" kap
+brew cask install --appdir="~/Applications" appcleaner
+brew cask install --appdir="~/Applications" qbittorrent
+brew cask install --appdir="~/Applications" whatsapp
+brew cask install --appdir="~/Applications" github
 brew cask install --appdir="~/Applications" iterm2
 brew cask install --appdir="/Applications" firefox
 brew cask install --appdir="/Applications" dropbox
 brew cask install --appdir="/Applications" postman
 brew cask install --appdir="/Applications" handbrake
 brew cask install --appdir="/Applications" google-chrome
-brew cask install --appdir="/Applications" google-chrome-canary
+brew cask install --appdir="/Applications" caskroom/versions/firefox-developer-edition
+brew cask install --appdir="/Applications" caskroom/versions/google-chrome-canary
 
 # Install developer friendly quick look plugins; see https://github.com/sindresorhus/quick-look-plugins
 brew cask install qlcolorcode qlstephen qlmarkdown quicklook-json qlprettypatch quicklook-csv betterzip qlimagesize webpquicklook suspicious-package quicklookase qlvideo
 
 # Mac App Store
-mas install 425424353 # the-unarchiver  https://itunes.apple.com/mx/app/the-unarchiver/id425424353
+mas install 1278508951 # Trello
+
+# Fonts
+brew tap homebrew/cask-fonts
+brew cask install font-office-code-pro
+brew cask install font-source-code-pro
+brew cask install font-ibm-plex
+brew cask install font-fira-code
+brew cask install font-fira-sans
+brew cask install font-fira-mono
+brew cask install font-clear-sans
+brew cask install font-work-sans
+brew cask install font-hack
+brew cask install font-input
+brew cask install font-inter
 
 # Remove outdated versions from the cellar.
 brew cleanup

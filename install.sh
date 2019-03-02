@@ -76,6 +76,9 @@ main () {
   # Move bullet-train prompt to oh-my-zsh custom folder
   cp $ROOT/zsh/themes/bullet-train.zsh-theme $ZSHCUSTOMPATH/themes/
 
+  # Move iterm2 themes to iterm2 folder in $HOME
+  cp -R $ROOT/iterm2 $HOME/iterm2/
+
   success
 
 }
