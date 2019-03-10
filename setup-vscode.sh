@@ -68,6 +68,7 @@ pawelgrzybek.gatito-theme \
 PKief.material-icon-theme \
 pnp.polacode \
 robertohuertasm.vscode-icons \
+softwaredotcom.swdc-vscode \
 spywhere.guides \
 WallabyJs.quokka-vscode \
 yzhang.markdown-all-in-one \
