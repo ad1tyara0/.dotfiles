@@ -65,6 +65,7 @@ kamikillerto.vscode-colorize \
 kisstkondoros.vscode-gutter-preview \
 oderwat.indent-rainbow \
 pawelgrzybek.gatito-theme \
+pflannery.vscode-versionlens \
 PKief.material-icon-theme \
 pnp.polacode \
 robertohuertasm.vscode-icons \
